@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "三国杀",
+    "slug": "sanguosha",
+    "version": "1.0.0",
+    "icon": "logo.png",
+    "privacy": "public",
+    "orientation": "landscape",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "sdkVersion": "31.0.0",
+    "packagerOpts": {
+      "port": 5389,
+      "sourceExts": [
+        "ts",
+        "tsx"
+      ],
+      "transformer": "node_modules/react-native-typescript-transformer/index.js"
+    },
+    "ios": {
+      "bundleIdentifier": "com.sanguosha.web"
+    },
+    "android": {
+      "package": "com.sanguosha.web",
+      "permissions": []
+    },
+    "updates": {
+      "enabled": false,
+      "checkAutomatically": "ON_ERROR_RECOVERY"
+    },
+    "description": ""
+  }
+}
