@@ -68,6 +68,7 @@ export default class App extends React.Component {
                 <StatusBar hidden={true}/>
                 <WebView
                     // userAgent={userAgent}
+                    useWebKit={true}
                     style={[styles.webView, {transform: [{scale: this.state.scale}]}]}
                     scalesPageToFit={false}
                     source={{uri: 'http://web.sanguosha.com/'}}/>
